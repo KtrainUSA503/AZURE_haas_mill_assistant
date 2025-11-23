@@ -35,7 +35,7 @@ TOP_K = 5  # number of chunks to retrieve
 # -----------------------------------------------------------------------------
 USERS = {
     # Consider removing this and using Azure App Service Authentication later
-    "admin": {"password": os.getenv("APP_ADMIN_PASSWORD", ""), "name": "Administrator", "role": "Admin"}
+    "admin": {"password": "Keith2025", "name": "Administrator", "role": "Admin"}
 }
 
 def authenticate_user():
@@ -265,4 +265,5 @@ with st.sidebar:
         st.session_state.authenticated = False
         st.session_state.disclaimer_accepted = False
         st.session_state.username = None
+
         st.experimental_rerun()
