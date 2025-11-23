@@ -27,8 +27,8 @@ st.set_page_config(
 # -----------------------------------------------------------------------------
 # ENVIRONMENT / CONFIG
 # -----------------------------------------------------------------------------
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
-PINECONE_API_KEY = os.getenv("PINECONE_API_KEY", "")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "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")
+PINECONE_API_KEY = os.getenv("PINECONE_API_KEY", "pcsk_5tsZi_JEAMygi9zKeJmtXQoxekZZzuUxLS1RTuMzXNgxoAq2m5gkjGoHjDNUmmWXUdg7D")
 PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "haas-mill-manual")
 
 # Blob settings (managed identity)
